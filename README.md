@@ -1,2 +1,2 @@
 # Unity-3d-scripts
-Some useful scripts for unity apps
+C# Scripts that I used in 3DPhone project.
