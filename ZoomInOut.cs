@@ -26,7 +26,7 @@ public class ZoomInOut : MonoBehaviour {
 				Camera.main.fieldOfView += zoomSpeed3d * Time.deltaTime;
 			}
 
-			Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView,minZoom3d,maxZoom3d);
+			Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView,minZoom3d,maxZoom3d); // Restrict min and max zoom
 
 		}
 }

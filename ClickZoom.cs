@@ -32,7 +32,7 @@ public class ClickZoom : MonoBehaviour {
 			
 		}
 		
-		else if(Input.GetMouseButtonDown(0)){
+		else if (Input.GetMouseButtonDown(0)){
         // get ray from camera in to scene at the mouse position
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
